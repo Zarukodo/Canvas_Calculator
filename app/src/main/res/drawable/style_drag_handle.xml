@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@android:color/transparent" />
+        </shape>
+    </item>
+
+    <item
+        android:gravity="top|center_horizontal"
+        android:top="0dp"
+        android:width="12dp"
+        android:height="10dp">
+        <shape android:shape="rectangle">
+            <corners android:radius="2dp" />
+            <solid android:color="@color/scrim_color" />
+            <stroke android:width="1dp" android:color="#56FFFFFF" />
+        </shape>
+    </item>
+
+    <item
+        android:gravity="top|center_horizontal"
+        android:top="6dp"
+        android:width="44dp"
+        android:height="44dp">
+
+        <shape android:shape="ring"
+            android:useLevel="false"
+            android:innerRadius="16dp"
+            android:thickness="5dp">
+
+            <gradient
+                android:angle="90"
+                android:startColor="#FFFFFF"
+                android:centerColor="@color/scrim_color"
+                android:endColor="#FFFFFF"
+                android:type="linear" />
+
+            <stroke android:width="1.5dp" android:color="#72FFFFFF" />
+        </shape>
+    </item>
+
+    <item
+        android:gravity="top|center_horizontal"
+        android:top="6dp"
+        android:width="44dp"
+        android:height="44dp">
+        <rotate android:fromDegrees="45">
+            <shape android:shape="ring"
+                android:useLevel="false"
+                android:innerRadius="16dp"
+                android:thickness="5dp">
+                <gradient
+                    android:angle="0"
+                    android:startColor="@color/scrim_color"
+                    android:endColor="@color/scrim_color"
+                    android:type="linear" />
+            </shape>
+        </rotate>
+    </item>
+
+</layer-list>

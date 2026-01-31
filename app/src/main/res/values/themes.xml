@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Calculator" parent="Theme.MaterialComponents.DayNight.NoActionBar" />
+    <style name="CalculatorButton">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="layout_columnWeight">1</item> <item name="layout_rowWeight">1</item>
+        <item name="android:layout_gravity">fill</item>
+        <item name="android:layout_margin">2dp</item> <item name="android:textSize">20sp</item>
+        <item name="android:backgroundTint">@color/purple_500</item>
+        <item name="android:textColor">@color/calc_icon_adaptive</item>
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearance.Calculator.Button</item>
+    </style>
+    <style name="AdvancedBtnStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="layout_columnWeight">1</item>
+        <item name="layout_rowWeight">1</item>
+        <item name="android:layout_gravity">fill</item>
+        <item name="android:layout_margin">1dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearance.Calculator.Button</item>
+        <item name="android:backgroundTint">@color/btn_advanced_default_bg</item>
+        <item name="android:textColor">@color/calc_icon_adaptive</item>
+    </style>
+    <style name="ShapeAppearance.Calculator.Button" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">20dp</item>
+    </style>
+    <style name="CircleStyle" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+</resources>
