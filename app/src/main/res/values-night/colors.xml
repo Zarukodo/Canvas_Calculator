@@ -1,0 +1,12 @@
+<resources>
+    <!-- 暗色模式下字是白色 -->
+    <color name="text_default">#FFFFFFFF</color>
+
+    <!-- 角度/弧度模式在暗色背景下可能需要亮一點，或者保持原樣 -->
+    <color name="mode_deg">#FFB74D</color>
+    <color name="mode_rad">#64B5F6</color>
+    <color name="btn_other">#FFFFFF</color>
+    <color name="scrim_color">#000000</color>
+    <color name="calc_text_adaptive">#FFFFFF</color>
+    <color name="calc_icon_adaptive">#FFFFFF</color>
+</resources>

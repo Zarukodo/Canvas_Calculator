@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 下方的三角形 -->
+    <item
+        android:drawable="@drawable/triangle_down"
+        android:gravity="center_horizontal|bottom"
+        android:top="5dp"
+        android:width="20dp"
+        android:height="20dp" />
+</layer-list>
+    
